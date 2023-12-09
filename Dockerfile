@@ -2,4 +2,4 @@ FROM ubuntu
 RUN apt update
 RUN apt install apache2 -y
 ADD . /var/www/html
-ENTRYPOINT apchect1 -D FOREGROUND
+ENTRYPOINT apchectl -D FOREGROUND
